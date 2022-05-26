@@ -27,7 +27,7 @@
         <div class="content-outline" style="padding:20px; background-color:#e6eaeb;">
             <div style="background-color:white; display:flex; padding: 20px;">
                 <img src="{{ $movie->photo }}" style="width:20%;">
-                <div style="width: 40%; margin-left: 20px;">
+                <div style="width: 50%; margin-left: 20px;">
                     <h2>{{ $movie->title }}</h2>
                     <h4>Rating: <strong style="color:rgb(42, 157, 235);">{{ $movie->rating }}</strong> / 10</h4>
                     <p style="padding-right: 20px; margin-top: 30px;">{{ $movie->description }}</p>
@@ -36,7 +36,7 @@
                         <a href="/category/{{ $movie->genre->id }}" style="margin-left: 10px;">{{ $movie->genre->name }}</a>
                     </div>
                 </div>
-                <div style="">
+                <div style="width: 25%;">
                     <h3>Episodes</h3>
                     <table class="table">
                         <thead>
